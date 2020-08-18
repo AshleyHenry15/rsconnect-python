@@ -10,3 +10,61 @@
 .md-typeset dd p:first-child {
     margin-top: 0;
 }
+
+
+/* Header
+*/
+
+.md-header[data-md-state=shadow] {
+    transition: background-color 0s;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15)
+}
+
+@media only screen and (max-width: 76.1875em){
+    .left-nav {
+        display: none;
+    }
+}
+
+.md-tabs__list {
+    margin: 0 2em 0 .2rem;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.md-tabs__link {
+    margin: 0;
+    padding: 0;
+}
+
+/* Custom Footer
+*/
+
+.md-footer-nav {
+    background-color: #fff;
+    color: #000;
+}
+
+.md-footer-nav__direction {
+    color: #000;
+    font-size: .65rem;
+}
+
+.md-footer-meta {
+    background-color: #fdfdfd;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    color: #404040;
+    font-weight: 400;
+}
+
+.md-footer-copyright__highlight {
+    color: #6F6B6B;
+    font-weight: 400;
+}
+
+.md-footer-meta.md-typeset a {
+    color: #6F6B6B !important;
+    font-weight: 400;
+}

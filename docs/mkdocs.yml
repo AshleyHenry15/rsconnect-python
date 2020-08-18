@@ -1,4 +1,5 @@
 site_name: 'RStudio Connect: rsconnect-python Library'
+copyright: RStudio, PBC. All Rights Reserved
 
 markdown_extensions:
   - toc:
@@ -14,7 +15,7 @@ markdown_extensions:
 plugins:
   - macros
   - search
-  - mkapi
+
 
 nav:
   - index.md
@@ -23,6 +24,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   logo: 'images/rstudio-logo.png'
   palette:
     primary: 'white'
