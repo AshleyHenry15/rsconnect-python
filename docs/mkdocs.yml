@@ -15,7 +15,7 @@ markdown_extensions:
 plugins:
   - macros
   - search
-
+  - mkapi
 
 nav:
   - index.md
